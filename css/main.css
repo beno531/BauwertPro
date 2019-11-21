@@ -1,0 +1,42 @@
+@media screen and (max-height: 480px) {
+    .header-text{
+        text-align: center; 
+        height: 85vh;
+    }
+    .h-test-s{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-text{
+        text-align: center; 
+        height: 85vh;
+    }
+    .h-test-s{
+        font-size: 2.0rem;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .header-text{
+        text-align: center; 
+        height: 70vh;
+    }
+    
+    .h-test-s{
+        font-size: 2.6rem;
+        line-height: 1.2;
+    }
+    
+}
+
+.head {
+    background-image: url(../images/header1.jpg);
+    background-size: cover;
+    max-height: 100vh;
+}
+
+
+
