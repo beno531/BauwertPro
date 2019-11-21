@@ -4,7 +4,7 @@
         height: 85vh;
     }
     .h-test-s{
-        visibility: hidden;
+        display: none;
     }
     .scroll-button{
         visibility: hidden;
@@ -25,7 +25,7 @@
         line-height: 1.0;
     }
     .scroll-button{
-        visibility: hidden;
+        display: none;
     }
     .dienst-img{
         max-height: 240px;
