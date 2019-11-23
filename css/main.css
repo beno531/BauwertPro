@@ -1,56 +1,88 @@
 @media screen and (max-height: 480px) {
-    .header-text{
-        text-align: center; 
+    .header-text {
+        text-align: center;
         height: 85vh;
     }
-    .h-test-s{
+    .h-test-s {
         display: none;
     }
-    .scroll-button{
+    .scroll-button {
         visibility: hidden;
     }
-    .dienst-img{
+    .dienst-img {
         max-height: 240px;
         overflow: hidden;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .header-text{
-        text-align: center; 
+    .header-text {
+        text-align: center;
         height: 85vh;
     }
-    .h-test-s{
+    .h-test-s {
         font-size: 1.8rem;
         line-height: 1.0;
     }
-    .scroll-button{
+    .scroll-button {
         display: none;
     }
-    .dienst-img{
+    .dienst-img {
         max-height: 240px;
         overflow: hidden;
     }
 }
 
 @media screen and (min-width: 480px) {
-    .header-text{
-        text-align: center; 
+    .header-text {
+        text-align: center;
         height: 73vh;
     }
-    
-    .h-test-s{
+    .h-test-s {
         font-size: 2.6rem;
         line-height: 1.2;
     }
-    
+    .dienst-img {
+        height: 50px;
+    }
+    .card-size {
+        width: 50%;
+        margin: 50px;
+    }
+    .card-size {
+        width: 100%;
+        margin: 50px;
+    }
+    .container {
+        height: 200px;
+        position: relative;
+    }
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .card-size {
+        width: 0%;
+        margin: 50px;
+    }
+    .parent {
+        position: relative;
+    }
+    .child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
+
+@media screen and (max-width: 1200px) {}
 
 .head {
     background-image: url(../images/header1.jpg);
     background-size: cover;
     max-height: 100vh;
 }
-
-
-

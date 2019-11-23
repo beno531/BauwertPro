@@ -21,6 +21,8 @@
 
 
 
+
+
     </style>
 
 </head>
@@ -44,52 +46,56 @@
     <div id="target"></div>
 
 
-
-
-
-
-
-
-
-    <div class="uk-inline" style="min-height: 100vh; width: 100%;overflow: inherit;">
-
-            <div class="uk-position-medium uk-flex uk-flex-center uk-flex-middle">
     
-                <div class="uk-child-width-1-2@m" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-media-top dienst-img">
-                                <img src="images/plan.jpg" alt="">
-                            </div>
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Strategische Planung</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Bauherrenberatung</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            </div>
-                            <div class="uk-card-media-bottom dienst-img">
-                                <img src="images/beratung.jpg" alt="">
-                            </div>
-                        </div>
+
+
+
+
+
+
+
+
+    <div class="uk-inline parent" style="min-height: 100vh; width: 100%;overflow: inherit;">
+
+        <div class="child">
+           
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" style="margin: 50px;" uk-scrollspy="cls: uk-animation-slide-left; repeat: false" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="images/about.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Strategische Planung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
-    
             </div>
+            
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" style="margin: 50px;" uk-scrollspy="cls: uk-animation-slide-right; repeat: false" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="images/about.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Bauherrenberatung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+    </div>
     
-        </div>
 
 
 
 
 
 
-
+    
 
 
 
