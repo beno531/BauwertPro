@@ -1,88 +1,115 @@
-@media screen and (max-height: 480px) {
-    .header-text {
-        text-align: center;
-        height: 85vh;
-    }
-    .h-test-s {
-        display: none;
-    }
-    .scroll-button {
-        visibility: hidden;
-    }
-    .dienst-img {
-        max-height: 240px;
-        overflow: hidden;
-    }
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
 }
 
-@media screen and (max-width: 480px) {
-    .header-text {
-        text-align: center;
-        height: 85vh;
-    }
-    .h-test-s {
-        font-size: 1.8rem;
-        line-height: 1.0;
-    }
-    .scroll-button {
-        display: none;
-    }
-    .dienst-img {
-        max-height: 240px;
-        overflow: hidden;
-    }
+
+.link-button {
+    border: solid;
+    border-width: 1px;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4vw;
+    margin: 4px 2px;
+    width: 50%;
+  }
+
+  .impressum-button {
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.2vw;
+  }
+
+
+.title{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
-    .header-text {
-        text-align: center;
-        height: 73vh;
-    }
-    .h-test-s {
-        font-size: 2.6rem;
-        line-height: 1.2;
-    }
-    .dienst-img {
-        height: 50px;
-    }
-    .card-size {
-        width: 50%;
-        margin: 50px;
-    }
-    .card-size {
-        width: 100%;
-        margin: 50px;
-    }
-    .container {
-        height: 200px;
-        position: relative;
-    }
-    .vertical-center {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-    .card-size {
-        width: 0%;
-        margin: 50px;
-    }
-    .parent {
-        position: relative;
-    }
-    .child {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+
+.header-image{
+    width: 100%;
+    background-color: grey;
+    height: 47vw;
 }
 
-@media screen and (max-width: 1200px) {}
 
-.head {
-    background-image: url(../images/header1.jpg);
-    background-size: cover;
-    max-height: 100vh;
+.main-graph{
+    width: 100%;
+    background-color: white;
+    height: 5%;
 }
+
+
+.button-section{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: white;
+    height: 5%;
+}
+
+
+.adress-info{
+    width: 100%;
+    background-color: white;
+}
+
+
+.impressum{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inner-title{
+    width: 85%;
+    margin: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+
+.inner-title-text{
+    font-size: 5.79vw;
+    margin: 0px;
+    color:black;
+}
+
+
+.inner-main-graph{
+    margin: 2%;
+}
+
+
+.inner-adress-info{
+    font-size: 4vw;
+}
+
+.inner-button-section{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-adress-info{
+    padding: 2%;
+    text-align: center;
+}
+
+
