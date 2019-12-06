@@ -1,10 +1,8 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
-    
 }
-
 
 .link-button {
     border: solid;
@@ -17,19 +15,22 @@ body{
     font-size: 4vw;
     margin: 4px 2px;
     width: 50%;
-  }
+}
 
-  .impressum-button {
+.impressum-button {
     color: black;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 3.2vw;
-  }
+}
 
+.bold-text {
+    font-weight: bold;
+}
 
-.title{
+.title {
     width: 100%;
     background-color: white;
     display: flex;
@@ -37,36 +38,30 @@ body{
     justify-content: center;
 }
 
-
-.header-image{
+.header-image {
     width: 100%;
     background-color: grey;
     height: 47vw;
 }
 
-
-.main-graph{
+.main-graph {
     width: 100%;
     background-color: white;
-    height: 5%;
 }
 
-
-.button-section{
+.button-section {
     width: 100%;
     margin: 10px 0px;
     background-color: white;
     height: 5%;
 }
 
-
-.adress-info{
+.adress-info {
     width: 100%;
     background-color: white;
 }
 
-
-.impressum{
+.impressum {
     width: 100%;
     margin: 10px 0px;
     background-color: white;
@@ -75,41 +70,49 @@ body{
     justify-content: center;
 }
 
+.content-info {
+    width: 100%;
+    background-color: white;
+}
 
-.inner-title{
+.inner-title {
     width: 85%;
     margin: 10%;
     background-color: white;
     text-align: center;
 }
 
-
-.inner-title-text{
+.inner-title-text {
     font-size: 5.79vw;
     margin: 0px;
-    color:black;
+    color: black;
 }
 
-
-.inner-main-graph{
+.inner-main-graph {
     margin: 2%;
 }
 
-
-.inner-adress-info{
-    font-size: 4vw;
-}
-
-.inner-button-section{
+.inner-button-section {
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.inner-adress-info{
+.inner-adress-info {
     padding: 2%;
     text-align: center;
+    font-size: 4vw;
 }
 
+.inner-content-info {
+    padding: 5%;
+    text-align: center;
+    font-size: 4vw;
+}
 
+.inner-content-info-left {
+    padding: 1% 5%;
+    text-align: left;
+    font-size: 4vw;
+}
