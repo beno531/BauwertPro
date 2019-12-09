@@ -26,6 +26,13 @@ body {
     font-size: 3.2vw;
 }
 
+
+.mail-link{
+    text-decoration: none;
+    color: black;
+}
+
+
 .bold-text {
     font-weight: bold;
 }
