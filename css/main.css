@@ -4,18 +4,7 @@ body {
     margin: 0px;
 }
 
-.link-button {
-    border: solid;
-    border-width: 1px;
-    color: black;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 4vw;
-    margin: 4px 2px;
-    width: 50%;
-}
+
 
 .impressum-button {
     color: black;
@@ -35,10 +24,24 @@ body {
 
 .bold-text {
     font-weight: bold;
+    color: black;
 }
 
 
 @media only screen and (max-width: 979px ) {
+
+    .link-button {
+        border: solid;
+        border-width: 1px;
+        color: black;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 4vw;
+        margin: 4px 2px;
+        width: 50%;
+    }
 
     .title {
         width: 100%;
@@ -46,6 +49,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .title-desktop {
+        display: none;
     }
     
     .header-image {
@@ -142,6 +149,25 @@ body {
         display: none;
     }
 
+    .inner-title-light-button{
+        display: none;
+    }
+
+    .content-desktop{
+        display: none;
+    }
+
+    .inner-adress-info-desktop{
+        display: none;
+    }
+
+    .desktop-impressum-add{
+        display: none;
+    }
+
+    .imp-lay{
+        text-align: justify;
+    }
 }
 
 @media only screen and (min-width: 980px ) {
@@ -192,6 +218,37 @@ body {
 
 
 
+    
+    .title-desktop {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inner-title-desktop {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link-button-desktop {
+        border: solid;
+        border-color: #707070;
+        border-width: 1px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.801);
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2vw;
+        margin: 70px 65px;
+        width: 31%;
+    }
 
     .inner-title-dark {
         display: none;
@@ -201,9 +258,36 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 50%;
 
-        background-color: white;
+        text-align: center;
+    }
+
+    .inner-title-text-desktop {
+        font-size: 3vw;
+        margin: 60px;
+        color: black;
+    }
+
+    .main-graph-desktop {
+        width: 50%;
+        display: inline-block; 
+    }
+
+    .center-vertical{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .inner-title-light-button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
         text-align: center;
     }
 
@@ -229,6 +313,71 @@ body {
         text-decoration: none;
         display: inline-block;
     }
+
+    .content-desktop{
+        width: 100%;
+        display: table;
+    }
+
+    .main-graph{
+        display: none;
+    }
+
+    .content-info{
+        display: none;
+    }
+
+    .content-info-desktop{
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        display: inline-block; 
+    }
+
+    .inner-content-info-left-desktop {
+        padding: 13% 5%;
+        text-align: left;
+        font-size: 0.9vw;
+        color: #707070;
+    }
+
+    .inner-main-graph-desktop {
+        background-color: cadetblue;
+        width: 100%;
+        height: 4px;
+    }
+
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .box {
+        float: left;
+        width: 50%;
+        padding: 50px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+
+      .inner-adress-info-desktop{
+        padding: 0% 2% 2% 2%;
+        text-align: center;
+        font-size: 0.9vw;
+      }
+
+    .inner-impressum-info{
+        padding: 0% 20% 2% 20%;
+        text-align: center;
+        font-size: 0.9vw;
+        text-align: justify;
+    }
+
 }
 
 @media only screen and (min-width: 1260px ) {
