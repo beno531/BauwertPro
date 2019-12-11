@@ -235,6 +235,13 @@ body {
         justify-content: center;
     }
 
+    .inner-title-kontakt-desktop {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .link-button-desktop {
         border: solid;
         border-color: #707070;
@@ -375,19 +382,28 @@ body {
         text-align: left;
     }
 
-    #content {
-        position: absolute;
-        margin: auto;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: 100px;
-        height: 100px;  
+    #kontakt-desk {
+        top: 50%;
+        left: 50%;
+        width:23vw;
+        height:16vw;
+        margin-top: -9em; /*set to a negative number 1/2 of your height*/
+        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+        position:fixed;
     }
 
-    .kontakt-page{
-        
+    .inner-title-kontakt-text-desktop {
+        font-size: 3vw;
+        margin: 30px 60px 10px 60px;
+        color: black;
+    }
+
+
+    .inner-title-kontakt-desktop {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
